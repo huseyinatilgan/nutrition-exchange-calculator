@@ -212,6 +212,11 @@
                         </div>
                     </div>
                 </div>
+                <!-- Disclaimer -->
+                <div class="alert alert-warning mt-4" role="alert">
+                    <h5 class="alert-heading">⚠️ Önemli Uyarı</h5>
+                    <p class="mb-0">Bu hesaplayıcı sadece bilgilendirme amaçlıdır ve tıbbi tavsiye niteliği taşımamaktadır. Beslenme planınızı değiştirmeden önce mutlaka bir diyetisyene veya doktora danışınız. Bu hesaplayıcıda yer alan bilgilerin doğruluğu garanti edilmemektedir.</p>
+                </div>
             </div>
         </div>
     </div>
