@@ -12,7 +12,9 @@ Bu uygulama sadece bilgilendirme amaçlıdır ve tıbbi tavsiye niteliği taşı
 - Karbonhidrat (CHO), Protein ve Yağ değerlerinin otomatik hesaplanması
 - Toplam kalori ve makro besin dağılımının yüzdesel gösterimi
 - Kullanıcı dostu arayüz
-- Responsive tasarım
+- Responsive tasarım (Mobil uyumlu)
+- Anlık hesaplama
+- Güvenli input validasyonu
 
 ## 🛠️ Teknolojiler
 
@@ -20,6 +22,7 @@ Bu uygulama sadece bilgilendirme amaçlıdır ve tıbbi tavsiye niteliği taşı
 - CSS3
 - JavaScript
 - PHP
+- Bootstrap 5
 
 ## 📋 Kullanım
 
@@ -36,10 +39,6 @@ Proje aktif olarak geliştirilmektedir. Katkıda bulunmak için:
 3. Değişikliklerinizi commit edin (`git commit -m 'feat: Add amazing feature'`)
 4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
 5. Pull Request oluşturun
-
-## 📝 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
 
 ## 👥 Katkıda Bulunanlar
 
