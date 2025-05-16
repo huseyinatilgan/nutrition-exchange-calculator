@@ -33,12 +33,51 @@
         .input-group {
             max-width: 120px;
         }
+        /* Mobil için geliştirmeler */
         @media (max-width: 768px) {
             .table-responsive {
-                font-size: 0.9rem;
+                font-size: 0.85rem;
             }
             .input-group {
-                max-width: 100px;
+                max-width: 90px;
+            }
+            .card-title {
+                font-size: 1.5rem;
+            }
+            .results {
+                padding: 1rem;
+            }
+            .table th, .table td {
+                padding: 0.5rem;
+            }
+            .btn {
+                width: 100%;
+                margin-bottom: 1rem;
+            }
+            .alert {
+                font-size: 0.9rem;
+            }
+            /* Mobilde tablo başlıklarını kısalt */
+            .table th:nth-child(3), .table th:nth-child(4), .table th:nth-child(5) {
+                font-size: 0.8rem;
+            }
+            .table th:nth-child(6), .table th:nth-child(7), .table th:nth-child(8) {
+                font-size: 0.8rem;
+            }
+        }
+        /* Çok küçük ekranlar için ek düzenlemeler */
+        @media (max-width: 576px) {
+            .container {
+                padding: 0.5rem;
+            }
+            .card-body {
+                padding: 1rem;
+            }
+            .table-responsive {
+                font-size: 0.8rem;
+            }
+            .input-group {
+                max-width: 80px;
             }
         }
     </style>
@@ -184,7 +223,10 @@
                         </div>
 
                         <div class="text-center mb-4">
-                            <button class="btn btn-primary" onclick="calculate()">Hesapla</button>
+                            <button class="btn btn-primary" onclick="calculate()">
+                                <span class="d-none d-md-inline">Hesapla</span>
+                                <span class="d-md-none">✓</span>
+                            </button>
                         </div>
 
                         <div class="results" id="results">
