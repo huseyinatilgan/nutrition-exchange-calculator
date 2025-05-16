@@ -2,6 +2,10 @@
 
 Beslenme değişim (Exchange) hesaplayıcısı, diyetisyenler ve sağlıklı beslenmek isteyenler için geliştirilmiş bir web uygulamasıdır.
 
+## 🌐 Canlı Demo
+
+Uygulamayı canlı olarak test edebilirsiniz: [https://huseyinatilgan.com/exchange-calculator/](https://huseyinatilgan.com/exchange-calculator/)
+
 ## ⚠️ Önemli Uyarı
 
 Bu uygulama sadece bilgilendirme amaçlıdır ve tıbbi tavsiye niteliği taşımamaktadır. Uygulamada yer alan hesaplamalar ve bilgiler, profesyonel tıbbi tavsiye yerine geçmez. Beslenme planınızı değiştirmeden önce mutlaka bir diyetisyene veya doktora danışınız. Bu uygulamada yer alan bilgilerin doğruluğu garanti edilmemektedir.
