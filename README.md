@@ -4,7 +4,7 @@ A web application developed for dietitians and those who want to maintain a heal
 
 ## 🌐 Live Demo
 
-You can test the application live: [https://huseyinatilgan.com/exchange-calculator/](https://huseyinatilgan.com/exchange-calculator/)
+You can test the application live: [https://www.huseyinatilgan.com/exchange-calculator/](https://www.huseyinatilgan.com/exchange-calculator/)
 
 ## ⚠️ Important Notice
 
