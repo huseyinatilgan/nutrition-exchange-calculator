@@ -1,26 +1,26 @@
 # Nutrition Exchange Calculator
 
-Beslenme değişim (Exchange) hesaplayıcısı, diyetisyenler ve sağlıklı beslenmek isteyenler için geliştirilmiş bir web uygulamasıdır.
+A web application developed for dietitians and those who want to maintain a healthy diet, allowing users to calculate their nutritional exchanges.
 
-## 🌐 Canlı Demo
+## 🌐 Live Demo
 
-Uygulamayı canlı olarak test edebilirsiniz: [https://huseyinatilgan.com/exchange-calculator/](https://huseyinatilgan.com/exchange-calculator/)
+You can test the application live: [https://huseyinatilgan.com/exchange-calculator/](https://huseyinatilgan.com/exchange-calculator/)
 
-## ⚠️ Önemli Uyarı
+## ⚠️ Important Notice
 
-Bu uygulama sadece bilgilendirme amaçlıdır ve tıbbi tavsiye niteliği taşımamaktadır. Uygulamada yer alan hesaplamalar ve bilgiler, profesyonel tıbbi tavsiye yerine geçmez. Beslenme planınızı değiştirmeden önce mutlaka bir diyetisyene veya doktora danışınız. Bu uygulamada yer alan bilgilerin doğruluğu garanti edilmemektedir.
+This application is for informational purposes only and does not constitute medical advice. The calculations and information provided in this application are not a substitute for professional medical advice. Please consult a dietitian or doctor before making any changes to your diet plan. The accuracy of the information in this application is not guaranteed.
 
-## 🎯 Özellikler
+## 🎯 Features
 
-- 7 farklı besin grubu için hesaplama (Süt, Et, Ekmek, Sebze, Meyve, Yağlar, Kuruyemişler)
-- Karbonhidrat (CHO), Protein ve Yağ değerlerinin otomatik hesaplanması
-- Toplam kalori ve makro besin dağılımının yüzdesel gösterimi
-- Kullanıcı dostu arayüz
-- Responsive tasarım (Mobil uyumlu)
-- Anlık hesaplama
-- Güvenli input validasyonu
+- Calculation for 7 different food groups (Milk, Meat, Bread, Vegetables, Fruits, Fats, Nuts)
+- Automatic calculation of Carbohydrates (CHO), Protein, and Fat values
+- Percentage display of total calories and macronutrient distribution
+- User-friendly interface
+- Responsive design (Mobile compatible)
+- Real-time calculation
+- Secure input validation
 
-## 🛠️ Teknolojiler
+## 🛠️ Technologies
 
 - HTML5
 - CSS3
@@ -28,28 +28,28 @@ Bu uygulama sadece bilgilendirme amaçlıdır ve tıbbi tavsiye niteliği taşı
 - PHP
 - Bootstrap 5
 
-## 📋 Kullanım
+## 📋 Usage
 
-1. Besin gruplarına göre "Exchange" değerlerini girin
-2. "Hesapla" butonuna tıklayın
-3. Sonuçları görüntüleyin
+1. Enter "Exchange" values according to your food groups
+2. Click the "Calculate" button
+3. View the results
 
-## 🔄 Geliştirme
+## 🔄 Development
 
-Proje aktif olarak geliştirilmektedir. Katkıda bulunmak için:
+The project is actively being developed. To contribute:
 
-1. Fork edin
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'feat: Add amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## 👥 Katkıda Bulunanlar
+## 👥 Contributors
 
 - [Hüseyin Atılgan](https://github.com/huseyinatilgan)
 
-## 📞 İletişim
+## 📞 Contact
 
-Proje Sahibi - [@huseyinatilgan](https://github.com/huseyinatilgan)
+Project Owner - [@huseyinatilgan](https://github.com/huseyinatilgan)
 
-Proje Linki: [https://github.com/huseyinatilgan/nutrition-exchange-calculator](https://github.com/huseyinatilgan/nutrition-exchange-calculator) 
+Project Link: [https://github.com/huseyinatilgan/nutrition-exchange-calculator](https://github.com/huseyinatilgan/nutrition-exchange-calculator) 
