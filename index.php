@@ -309,14 +309,21 @@
             totalEnergy = totalCHO + totalProtein + totalFat;
 
             // Sonuçları güvenli bir şekilde güncelle
-            document.getElementById('totalCHO').innerHTML = `Toplam CHO (kcal): ${totalCHO.toFixed(2)} (<span class="percentage">${((totalCHO / totalEnergy) * 100 || 0).toFixed(2)}%</span>)`;
-            document.getElementById('totalProtein').innerHTML = `Toplam Protein (kcal): ${totalProtein.toFixed(2)} (<span class="percentage">${((totalProtein / totalEnergy) * 100 || 0).toFixed(2)}%</span>)`;
-            document.getElementById('totalFat').innerHTML = `Toplam Yağ (kcal): ${totalFat.toFixed(2)} (<span class="percentage">${((totalFat / totalEnergy) * 100 || 0).toFixed(2)}%</span>)`;
+            document.getElementById('totalCHO').textContent = `Toplam CHO (kcal): ${totalCHO.toFixed(2)} (${((totalCHO / totalEnergy) * 100 || 0).toFixed(2)}%)`;
+            document.getElementById('totalProtein').textContent = `Toplam Protein (kcal): ${totalProtein.toFixed(2)} (${((totalProtein / totalEnergy) * 100 || 0).toFixed(2)}%)`;
+            document.getElementById('totalFat').textContent = `Toplam Yağ (kcal): ${totalFat.toFixed(2)} (${((totalFat / totalEnergy) * 100 || 0).toFixed(2)}%)`;
             document.getElementById('totalEnergy').textContent = `${totalEnergy.toFixed(2)} kcal`;
         }
 
-        // Sayfa yüklendiğinde ilk hesaplamayı yap
-        document.addEventListener('DOMContentLoaded', calculate);
+        // Inline event handler'ları kaldırıp addEventListener ile değiştiriyorum
+        document.querySelectorAll('.exchange').forEach(input => {
+            input.addEventListener('input', function() {
+                validateInput(this);
+                calculateRow(this);
+            });
+        });
+
+        document.querySelector('.btn-primary').addEventListener('click', calculate);
     </script>
 </body>
 </html>
